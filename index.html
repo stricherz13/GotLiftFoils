@@ -1,1082 +1,1288 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Document Title
-        ============================================= -->
-    <title>Trax 1.4 | Documentation</title>
-
-    <!-- Stylesheets
-        ============================================= -->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
-    <link rel="stylesheet" href="css/bootstrap.css"  />
-    <link rel="stylesheet" href="style.css"  />
-
-    <!-- One Page Module Specific Stylesheet -->
-    <link rel="stylesheet" href="onepage.css"  />
-    <!-- / -->
-
-    <!-- Documentation Module Specific Stylesheet -->
-    <link rel="stylesheet" href="docs.css"  />
-    <!-- / -->
-
-    <link rel="stylesheet" href="css/dark.css"  />
-    <link rel="stylesheet" href="css/font-icons.css"  />
-    <link rel="stylesheet" href="css/font-icons/et/et-line.css"  />
-    <link rel="stylesheet" href="css/font-icons/medical/medical-icons.css"  />
-    <link rel="stylesheet" href="css/animate.css"  />
-    <link rel="stylesheet" href="css/magnific-popup.css"  />
-    <link rel="stylesheet" href="css/responsive.css"  />
-
-    <!--[if lt IE 9]>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
-
-    <!-- External JavaScripts
-        ============================================= -->
-    <script  src="js/jquery.js"></script>
-    <script  src="js/plugins.js"></script>
-
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trax | One Page</title>
+    <link href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/tooltipster.min.css">
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="css/revolution/navigation.css">
+    <link rel="stylesheet" href="css/revolution/settings.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body class="stretched">
-
-<!-- Document Wrapper
-	============================================= -->
-<div id="wrapper" class="clearfix">
-
-    <!-- Header
-          ============================================= -->
-    <header id="header" class="static-sticky">
-        <div id="header-wrap">
-            <div class="container-fullwidth clearfix">
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                <!-- ========== Logo ============= -->
-                <div id="logo"> <a href="index.html" class="standard-logo" ><img src="images/logo.png" alt="trax,Logo"></a>
-                    <a href="index.html" class="retina-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="trax Logo"></a>
-                </div>
-                <!-- #logo end -->
-
-                <!-- Primary Navigation
-                            ============================================= -->
-                <nav id="primary-menu">
-                    <ul>
-                        <li><a href="https://themeforest.net/user/themesindustry">
-                            <div>Themes</div>
-                        </a></li>
-                        <li><a href="http://support.acrothemes.com">
-                            <div>Support</div>
-                        </a></li>
-                    </ul>
-                </nav>
-                <!-- #primary-menu end -->
-            </div>
-        </div>
-    </header>
-    <!-- #header end -->
-
-    <!-- Content ========================= -->
-    <section id="content">
-        <div class="content-wrap nopadding">
-            <div id="docs" class="container-fullwidth clearfix">
-                <div class="docs-navigation">
-                    <ul>
-                        <li><a href="#docs-start">Start</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-start-installation">Installation</a></li>
-                                <li><a href="#" data-href="#docs-start-html">HTML Structure</a></li>
-                                <li><a href="#" data-href="#docs-start-pagetransition">Page Transition</a></li>
-                                <li><a href="#" data-href="#docs-start-logo">Logo Settings</a></li>
-                                <li><a href="#" data-href="#docs-start-fonts">Changing Fonts</a></li>
-                                <li><a href="#" data-href="#docs-start-tips">Optimization Tips</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#docs-headers">Headers</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-headers-types">Header Setup</a></li>
-                                <!--<li><a href="#" data-href="#docs-headers-menustyles">Menu Styles</a></li>-->
-                            </ul>
-                        </li>
-                        <li><a href="#docs-pageel">Page Elements</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-pageel-titles">Page Title</a></li>
-                                <li><a href="#" data-href="#docs-pageel-grid">Grid</a></li>
-                                <li><a href="#" data-href="#docs-pageel-sidepanel">Side Panel</a></li>
-                                <li><a href="#" data-href="#docs-pageel-classes">Helper Classes</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#docs-slider">Sliders</a>
-
-                        </li>
-                        <li><a href="#docs-blog">Blog</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-blog-setup">Setup</a></li>
-                                <li><a href="#" data-href="#docs-blog-posttypes">Post Types</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#docs-portfolio">Portfolio</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-portfolio-setup">Setup</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#docs-shortcodes">Shortcodes</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-shortcodes-intro">Introduction</a></li>
-                                <li><a href="#" data-href="#docs-shortcodes-animations">Animations</a></li>
-                                <li><a href="#" data-href="#docs-shortcodes-icons">Icons</a></li>
-                                <li><a href="#" data-href="#docs-widgets">Widgets</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="#docs-contact">Contact Form</a>
-                                    <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                            <li><a href="#" data-href="#docs-contact-simple">Simple Mail</a></li>
-                                            <li><a href="#" data-href="#docs-contact-mailer">Php Mailer</a></li>
-                                    </ul>
-                        </li>
-
-
-                        <li><a href="#docs-credits">Credits</a>
-                            <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                                <li><a href="#" data-href="#docs-credits-images">Images</a></li>
-                                <li><a href="#" data-href="#docs-credits-jquery">jQuery</a></li>
-                                <li><a href="#" data-href="#docs-credits-css">CSS</a></li>
-                            </ul>
-                        </li>
-                        <!--<li><a href="#docs-changelog">Changelog</a>
-                          <ul class="one-page-menu" data-offset="110" data-easing="easeInOutExpo" data-speed="1250">
-                            <li><a href="#" data-href="#docs-changelog-v3-1">Version 3.1</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v3">Version 3.0</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v2-5">Version 2.5</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v2-1">Version 2.1</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v2">Version 2.0</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v1-4">Version 1.4</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v1-3">Version 1.3</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v1-2">Version 1.2</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v1-1">Version 1.1</a></li>
-                            <li><a href="#" data-href="#docs-changelog-v1">Version 1.0</a></li>
-                          </ul>
-                        </li>-->
-                    </ul>
-                </div>
-                <div class="docs-content">
-                    <div id="docs-start">
-                        <div id="docs-start-installation" class="docs-content-inner page-section">
-                            <h1>Installation</h1>
-                            <p>Follow the steps below to get started with your website:</p>
-                            <ol>
-                                <li>Open the folder <code>main-file/bootstrap-v4</code> or <code>main-file/bootstrap-v5</code> from the extracted zip file to find all the templates files</li>
-                                <li>You will need to Upload these files to your Web Server using FTP in order to use it on your Website.</li>
-                                <li>Make sure you upload the required files/folders from any of the above choosen folder (for example: bootstrap-v4):
-                                    <ul>
-                                        <li><code>bootstrap-v4/css</code> - Extra Stylesheets Folder plus Main Stylesheet File</li>
-                                        <li><code>bootstrap-v4/images</code> - Images Folder</li>
-                                        <li><code>bootstrap-v4/js</code> - Javacripts Folder</li>
-                                        <li><code>bootstrap-v4/index.html</code> - Index File/Homepage</li>
-                                    </ul>
-                                    The other files can be used according to your preferences. </li>
-                                <li>You're now good to go..! Start adding your Content and show off your Brand New Beautiful Website in style.</li>
-                            </ol>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-start-html" class="docs-content-inner page-section">
-                            <h1>HTML Structure</h1>
-                            <p>      Trax      follows a simple coding structure. here is the sample:</p>
-                            <pre class="bottommargin">
-&lt;!DOCTYPE html&gt;
-&lt;html dir="ltr" lang="en"&gt;
-
-  <span class="color">&lt;!-- All your metas will be here ========= --&gt;</span>
-&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-&lt;head&gt;
-
-  <span class="color">&lt;!-- Your Stylesheets, Title
-	============================================= --&gt;</span>
-	...
-
-&lt;/head&gt;
-&lt;body&gt;
-
-  <span class="color">&lt;!-- The Loader Before Site Load
-	============================================= --&gt;</span>
-&lt;div class="loader"&gt;
-  ....
-&lt;/div&gt;
-
-  <span class="color">&lt;!-- Header
-		============================================= --&gt;</span>
-&lt;header&gt;
-  &lt;nav class="navbar"&gt;
-    ...
-  &lt;/nav&gt;
-&lt;/header&gt;
-
-  <span class="color">&lt;!-- Site Content
-		============================================= --&gt;</span>
-&lt;section&gt;
-  &lt;div class="container"&gt;
-    ...
-  &lt;/div&gt;
-&lt;/section&gt;
-
-  <span class="color">&lt;!-- Footer
-		============================================= --&gt;</span>
-&lt;footer&gt;
-  &lt;div class="container"&gt;
-  ...
-  <span class="color">&lt;!-- Copyrights
-  ============================================= --&gt;</span>
-  &lt;/div&gt;
-&lt;/footer&gt;
-
-
-<span class="color">&lt;!-- Your All Scripts will be here
-	============================================= --&gt;</span>
-	...
-
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-                            <h3>Favicons &amp; Apple Touch Icons</h3>
-                            <p>You can add a Favicon to your Website using the following code just bottom to the Stylesheet files links:</p>
-                            <pre>&lt;link href="images/favicon.ico" rel="icon"&gt;</pre>
-                            <p>You can add Apple Touch Icons to your Website using the following code:</p>
-                            <pre>&lt;link rel="apple-touch-icon" href="touch-icon-iphone.png"&gt;
-&lt;link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png"&gt;
-&lt;link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png"&gt;
-&lt;link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"&gt;</pre>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-start-pagetransition" class="docs-content-inner page-section">
-                            <h1>Page Loading Transitions</h1>
-                            <p>You can show Interactive loaders to your Visitors while the Pages of your  Website loads in the background &amp; then Reveal  show Interactive loaders to your Visitors while your Pages with CSS3 Transitions. Page Loading Transitions are enabled by default. To disable the Transition, you can simply remove <code>.loader</code> Class just after the <code>&lt;body&gt;</code> Tag.</p>
-                            <div class="line"></div>
-                            <!--<p>You can also add transition effects on any section or any contantent used in the web site for the purpose of smooth loading effects and scrolling.
-                             TO use it you have to need just add the <code>.wow</code> and <code>.fedeIn</code>(transition name class which you want to use)</p>
-                            <pre>
-                            &lt;div class="wow fadeIn" data-wow-delay="500ms" data-wow-duration="300ms"&gt;
-                            </pre>-->
-                        </div>
-                        <!--<div class="line"></div>-->
-                        <div id="docs-start-logo" class="docs-content-inner page-section">
-                            <h1>Logo Settings</h1>
-                            <p>The Logo Container can be found in the Header Container - <code>nav</code> tag</p>
-                            <pre>&lt;a class="navbar-brand" href="index.html">
-    &lt;img src="images/logo.png" alt="logo"&gt;
-&lt;/a&gt;
-</pre>
-                            <p>In the Main Index with have transparent background the Logo Container can be found in the Header Container - <code>nav</code> tag</p>
-                            <pre>&lt;a class="navbar-brand" href="index.html">
-    &lt;img src="images/logo-transparent.png" alt="logo" class="logo-default"&gt;
-    &lt;img src="images/logo.png" alt="logo" class="logo-scrolled"&gt;
-&lt;/a&gt;
-</pre>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-start-fonts" class="docs-content-inner page-section">
-                            <h1>Changing Fonts</h1>
-                            <p>Change your Fonts from Google Fonts Library  directly if you plan to use a Google Font. You can find the Linking to the Font
-                                Files in the <code>style.css</code>file.</p>
-                            <pre>@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800');</pre>
-                            <pre>@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');</pre>
-                            <p>In order to change the Fonts, you will need to Edit the Above Links with your Custom Font, if you plan to use a Google Font or
-                                Remove it completely if you plan to use a Self Hosted font. Here is an Example for using <a href="http://css-tricks.com/snippets/css/using-font-face/" target="_blank">Self Hosted Fonts</a>.</p>
-                            <p>By default, Trax uses two Fonts namely: <code>Montserrat </code> and <code>Open Sans </code> from the <a href="http://www.google.com/fonts" target="_blank">Google Fonts Library</a></p>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-start-tips" class="docs-content-inner page-section">
-                            <h1>Website Optimization Tips</h1>
-                            <p>A Fast &amp; Optimized Website has several factors which needs to be implemented in order to achieve the desired results. There are several Optimization Techniques available which will definitely affect your Website's Performance in a Positive Way &amp; we want to share a few of them with you:</p>
-                            <ul>
-                                <li>
-                                    <h4>gZip Compression &amp; Browser Caching</h4>
-                                    <p>This is probably one of the Most Important Techniques you should definitely implement in order to bump up your Website's Loading Speed. <strong>gZip Compression</strong> is used to compress the Files that are delivered when loading a Website. It covers HTML, CSS, Javascript &amp; Font Files along with other miscellaneous text files. Where as <strong>Browser Caching</strong> also covers Images &amp; Videos apart from including the above files. This is used to saves the Static Data in your Browser itself so that when you open the Next Pages on the Same Website, the content does not gets Downloaded again, loading the Website fast.</p>
-                                    <p><strong>gZip Compression</strong> &amp; <strong>Browser Caching</strong> can be enabled using the <code>.htaccess</code> File on an Apache Web Server. You can use the Codes from here: <a href="https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess" target="_blank">https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess</a> to enable these modules on your server.</p>
-                                </li>
-                                <li>
-                                    <h4>Image Compression &amp; Optimization</h4>
-                                    <p>We tend to use Lots of Images on our Websites but we often do not make efforts to Compress &amp; Optimize them. Remember, the Larger the Image, the more time it takes to download and therefore this slows your website loading times affecting User Experience. Your customer will leave your website if it does not load within 3-5 Seconds which adversely affects your Sales. Therefore, it is important to Resize, Optimize &amp; Compress your Images before using it on your Website. Here are some Tips which might come handy in optimizing images:</p>
-                                    <ul>
-                                        <li><strong>Resize your Images:</strong> Resize your Images before using it on your Website. Do not just Download an Image &amp; place it as it is in your Website's <code>&lt;img&gt;</code> Tag without resizing it. The size/resolution of the Image matters since it is not recommended to use an Image size of <code>1200px</code> x <code>800px</code> in a Content Size of <code>300px</code> x <code>200px</code> as this is unnecessary. Resize it to <code>300px</code> x <code>200px</code></li>
-                                        <li><strong>Image Formats:</strong> There are three common file types that are used for web images which are JPEG, GIF, &amp; PNG. For images with a Flat Background use <strong>JPEG</strong> images, for images with a Transparent background use <strong>PNG</strong> images and for images with Animations use <strong>GIF</strong> images.</li>
-                                        <li><strong>Compressing Images:</strong> Images Compression is important as it considerably reduces the size without losing the quality. There are several FREE Image Optimization Tools available to Download.<br>
-                                            <strong>For MAC</strong> use <a href="https://imageoptim.com/" target="_blank">ImageOptim</a><br>
-                                            <strong>For Windows</strong> use <a href="http://luci.criosweb.ro/riot/" target="_blank">Riot</a> for compressing JPEG Images &amp; <a href="http://pnggauntlet.com/" target="_blank">PNG Gauntlet</a> for PNG Images.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <h4>CSS &amp; jQuery Minifications</h4>
-                                    <p>It is also recommended that you <strong>Combine &amp; Minify</strong> all your CSS Files to a single CSS File &amp; all Javascript Files to a single JS File since <strong>Minification</strong> reduces the size of the File and <strong>Combining</strong> the files helps in reducing the number of HTTP requests made to the server. This is also an Important Factor in increasing the speed of your website. There are several tools available online to Minify your CSS &amp; JS Files. Our recommendations are:<br>
-                                        <strong>For CSS</strong> use <a href="http://cssminifier.com/" target="_blank">CSS Minifier</a> and <strong>For Javascript</strong> use <a href="http://javascript-minifier.com/" target="_blank">Javascript Minifier</a>.</p>
-                                </li>
-                                <li>
-                                    <h4>Content Delivery Network</h4>
-                                    <p>You can use a <strong>CDN</strong> to further speed up your website. You can use the CDN to deliver static files of your website like CSS, JS, Images &amp; Font Files. There are several CDN Hosting Providers available on the Internet but we would recommend <a href="https://www.maxcdn.com/" target="_blank">MaxCDN</a> or <a href="http://www.cloudflare.com/" target="_blank">CloudFlare</a>. <span class="label label-danger">Note:</span> CDN setup requires Extra monthly Fees to setup, so it is completely optional &amp; according to your needs.</p>
-                                </li>
-                                <li>
-                                    <h4>Fast Web Hosting Servers</h4>
-                                    <p>A lot depends on your Web Hosting Servers, so it is recommended that you choose a Hosting Company/Server that provides a Reliable &amp; a Fast Hosting Service. You can check out some recommended Hosting Services here: <a href="http://themeforest.net/get_hosting" target="_blank">http://themeforest.net/get_hosting</a>.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="docs-headers">
-                        <div id="docs-headers-types" class="docs-content-inner page-section">
-                            <h1>Header</h1>
-                            <p>You can choose the headers while creating your Pages. Default Header with a white Background while turns Stickey after a little scrolling &amp;,you can make header without stickey effect
-                                for this just remove the <code>.static-nav</code> from the <code>nav</code> tag.
-                                You can also choose the transparent header by using <code>navbar transparent-bg</code> Class on <code>nav</code> tag,
-                                You can also choose the Padding (Space of navbar - up and down) of header by using <code>navbar padding-nav</code> Class on <code>nav</code> tag,
-                                Simply follow the structure below to create the header:</p>
-                            <pre class="nobottommargin">
-&lt;header&gt;
-	...
-&lt;/header&gt;
-</pre>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-headers-menustyles" class="docs-content-inner page-section">
-                            <h2>Menu Styles</h2>
-                            <p>Default Menu Style which aligns to the right, You can use the Menu just as</p>
-                            <pre>
-&lt;nav class="navbar navbar-expand-lg padding-nav static-nav"&gt;
-	...
-&lt;/nav&gt;
-
-    <span class="color"> &lt;!-- for Transparent style use code below --&gt;</span>
-&lt;nav class="navbar navbar-expand-lg transparent-bg static-nav"&gt;
-	...
-&lt;/nav&gt;
-
-    <span class="color"> &lt;!-- for Padding use code below --&gt;</span>
-&lt;nav class="navbar navbar-expand-lg padding-nav static-nav"&gt;
-	...
-&lt;/nav&gt;
-           </pre>
-
-
-                        </div>
-                        <!--<div id="docs-headers-submenu" class="docs-content-inner page-section">
-                          <h2>Page Sub Menu</h2>
-                          <p>You can use an Additional Sub Menu on any Page for Intra Navigation purposes.</p>
-            <pre>
-            &lt;li class="dropdown"&gt;
-              &lt;ul class="dropdown-menu"&gt;
-                  &lt;li&gt;&lt;a href="#" data-toggle="dropdown&gt;&lt;
-                       &lt;li&gt;&lt;a href="index.html">Home V1&lt;/a&gt;&lt;/li&gt;
-                       &lt;li&gt;&lt;a href="index_2.html">Home V2&lt;/a&gt;&lt;/li&gt;
-                       &lt;li&gt;&lt;a href="index_3.html">Home V3&lt;/a&gt;&lt;/li&gt;
-                     &lt;/a&gt;
-                  &lt;/li&gt;
-               ...
-              &lt;/ul&gt;
-            &lt;/li&gt;
-
-            </pre>
-             <p><span class="label label-danger">Note:</span> It is recommended that you place the Page Sub Menu code just below <code>li</code> tag in navigation.</p>
-
-                        </div>-->
-                        <div class="line"></div>
-                    </div>
-                    <div id="docs-pageel">
-                        <div id="docs-pageel-titles" class="docs-content-inner page-section">
-                            <h1>Page Titles</h1>
-                            <p>Default Page Title style with Text aligned Left.</p>
-
-                        </div>
-
-                        <div id="docs-pageel-grid" class="docs-content-inner page-section clearfix">
-                            <h1>Columns &amp; Grid</h1>
-                            <h3>Bootstrap Grid</h3>
-                            <div class="show-grid">
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-1">.col-md-1</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-3">.col-md-3</div>
-                                <div class="col-md-3">.col-md-3</div>
-                                <div class="col-md-3">.col-md-3</div>
-                                <div class="col-md-3">.col-md-3</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-4">.col-md-4</div>
-                                <div class="col-md-4">.col-md-4</div>
-                                <div class="col-md-4">.col-md-4</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-5">.col-md-5</div>
-                                <div class="col-md-5">.col-md-5</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-6">.col-md-6</div>
-                                <div class="col-md-6">.col-md-6</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-1">.col-md-1</div>
-                                <div class="col-md-11">.col-md-11</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-10">.col-md-10</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-3">.col-md-3</div>
-                                <div class="col-md-9">.col-md-9</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-4">.col-md-4</div>
-                                <div class="col-md-8">.col-md-8</div>
-                            </div>
-                            <div class="show-grid">
-                                <div class="col-md-5">.col-md-5</div>
-                                <div class="col-md-7">.col-md-7</div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-pageel-sidepanel" class="docs-content-inner page-section clearfix">
-                            <h1>Side Panel</h1>
-                            <p>You can add a revealable Side Panel on your Website with Additional Information about your Website. here we are giving you a demo with
-                                all possible information,
-                                Simply use the Code below:</p>
-                            <pre>
-&lt;aside class="sidebar padding-bottom"&gt;
-    &lt;div class="widget heading_space wow fadeIn" data-wow-delay="300ms"&gt;
-
-        <span class="color">&lt;!-- Search Box --&gt;</span>
-        &lt;h4 class="text-capitalize darkcolor bottom20"&gt;search&lt;/h4&gt;
-        &lt;form class="widget_search"&gt;
-            &lt;div class="input-group"&gt;
-                &lt;label for="search" class="d-none"&gt;&lt;/label&gt;
-                &lt;input type="search" class="form-control" placeholder="search..." id="search" required&gt;
-                &lt;button type="submit" class="input-group-addon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt; &lt;/button&gt;
-            &lt;/div&gt;
-        &lt;/form&gt;
-    &lt;/div&gt;
-
-    &lt;div class="widget heading_space wow fadeIn" data-wow-delay="350ms"&gt;
-         <span class="color">&lt;!-- Recent Post --&gt;</span>
-        &lt;h4 class="text-capitalize darkcolor bottom20"&gt;Recent Post&lt;/h4&gt;
-        &lt;div class="single_post d-table bottom15"&gt;
-            &lt;a href="#." class="post"&gt;&lt;img src="images/blog-recent-1.jpg" alt="post image"&gt;&lt;/a&gt;
-            &lt;div class="text"&gt;
-                &lt;a href="#."&gt;About Invesment Management&lt;/a&gt;
-                &lt;span&gt;September 22,2019&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="single_post bottom15"&gt;
-            &lt;a href="#." class="post"&gt;&lt;img src="images/blog-recent-2.jpg" alt="post image"&gt;&lt;/a&gt;
-            &lt;div class="text"&gt;
-                &lt;a href="#."&gt;We Conduct Share Holders Meet&lt;/a&gt;
-                &lt;span&gt;September 20,2019&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="single_post d-table bottom15"&gt;
-            &lt;a href="#." class="post"&gt;&lt;img src="images/blog-recent-3.jpg" alt="post image"&gt;&lt;/a&gt;
-            &lt;div class="text"&gt;
-                &lt;a href="#."&gt;Create Your bright Future&lt;/a&gt;
-                &lt;span&gt;September 18,2019&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class="widget heading_space wow fadeIn" data-wow-delay="400ms"
-         <span class="color">&lt;!-- Tags --&gt;</span>
-        &lt;h4 class="text-capitalize darkcolor bottom20"&gt;Top Tags&lt;/h4&gt;
-        &lt;ul class="webtags"&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Books&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Midterm test &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Presentation&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Courses&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Certifications&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Teachers&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Student Life&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Study&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Midterm test &lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Presentation&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Courses&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-
-    &lt;div class="widget wow fadeIn" data-wow-delay="450ms"&gt;
-         <span class="color">&lt;!-- Category --&gt;</span>
-        &lt;h4 class="text-capitalize darkcolor bottom20"&gt;Categories&lt;/h4&gt;
-        &lt;ul class="webcats"&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Books &lt;span&gt;23&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Midterm test &lt;span&gt;09&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Presentation &lt;span&gt;11&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#."&gt;Courses &lt;span&gt;13&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/aside&gt;
-</pre>
-                            <p class="bottommargin"><span class="label label-danger">Note:</span> Make sure that you add the Side Panel's Code just after the whole column <code>#blog</code></p>
-                            <h3>Side Panel Position</h3>
-                            <p>A Side Panel can be revealed from either Left or Right. The Side Panel is revealed from the Right by default. If you would like to change the Reveal Position of the Side Panel to <strong>Left</strong>, then you can simply add the <code>.float-left</code> Class to the <code>&lt;aside&gt;</code> Tag.</p>
-                            <pre class="bottommargin">&lt;aside class="float-left"&gt;</pre>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-pageel-classes" class="docs-content-inner page-section">
-                            <h1>Helper Classes</h1>
-                            <p>We have created some really useful helper classes for you. Here are a few of them:</p>
-                            <ul>
-                                <li><code>.p-*</code> - padding of <strong>*rem</strong> on the all sides of elements.</li>
-                                <li><code>.pb-*</code> - Padding Bottom of <strong>*rem</strong> on the bottom of elements.</li>
-                                <li><code>.pt-*</code> - Padding Top of <strong>*rem</strong> on the top of elements.</li>
-                                <li><code>.pl-*</code> - Padding Left of <strong>*rem</strong> on the left of elements.</li>
-                                <li><code>.pr-*</code> - Padding Right of <strong>*rem</strong> on the right of elements.</li>
-                                <li><code>.m-*</code> - Margin of <strong>*rem</strong> on the all sides of elements.</li>
-                                <li><code>.mb-*</code> - Margin Bottom of <strong>*rem</strong> on the bottom of elements.</li>
-                                <li><code>.mt-*</code> - Margin Top of <strong>*rem</strong> on the top of elements.</li>
-                                <li><code>.ml-*</code> - Margin Left of <strong>*rem</strong> on the left of elements.</li>
-                                <li><code>.mr-*</code> - Margin Right of <strong>*rem</strong> on the right of elements.</li>
-                                <p class="top">* Means 0-5 number where: </p>
-                                <li>
-                                    <ul>
-                                        <li>0 has 0rem</li>
-                                        <li>1 has 0.25rem</li>
-                                        <li>2 has 0.5rem</li>
-                                        <li>3 has 1rem</li>
-                                        <li>4 has 1.5rem</li>
-                                        <li>5 has 3rem</li>
-                                    </ul>
-                                </li>
-                                <li><code>.padding</code> - padding  of <strong>7.5rem</strong> on top and bottom of sections.</li>
-                                <li><code>.padding_top</code> - padding  of <strong>7.5rem</strong> on top of sections.</li>
-                                <li><code>.padding_bottom</code> - padding of <strong>7.5rem</strong> on the bottom of sections.</li>
-                                <li><code>.padding_half</code>  - padding of <strong>3.75rem</strong> on the top  and bottom of elements.</li>
-                                <li><code>.padding_top_half</code> - padding of <strong>3.75rem</strong> on top of elements.</li>
-                                <li><code>.padding_bottom_half</code>  - padding of <strong>3.75rem</strong> on bottom of elements.</li>
-                                <li><code>.p-0</code>  - for 0 padding or remove the padding</li>
-                                <li><code>.m-0</code>  - for 0 margin or remove the margin</li>
-                                <li><code>.margin</code> - margin  of <strong>7.5rem</strong> on top and bottom of sections.</li>
-                                <li><code>.margin_top</code> - margin  of <strong>7.5rem</strong> on top of sections.</li>
-                                <li><code>.margin_bottom</code> - margin of <strong>7.5rem</strong> on the bottom of sections.</li>
-                                <li><code>.margin_half</code>  - margin of <strong>3.75rem</strong> on the top  and bottom of elements.</li>
-                                <li><code>.margin_top_half</code> - margin of <strong>3.75rem</strong> on top of elements.</li>
-                                <li><code>.margin_bottom_half</code>  - margin of <strong>3.75rem</strong> on bottom of elements.</li>
-                                <li><code>.top5</code> - margin of <strong>5px</strong> on the top of elements.</li>
-                                <li><code>.top10</code> - margin of <strong>10px</strong> on the top of elements.</li>
-                                <li><code>.top15</code> - margin of <strong>15px</strong> on the top of elements.</li>
-                                <li><code>.top20</code> - margin of <strong>20px</strong> on the top of elements.</li>
-                                <li><code>.top25</code> - margin of <strong>25px</strong> on the top of elements.</li>
-                                <li><code>.top30</code> - margin of <strong>30px</strong> on the top of elements.</li>
-                                <li><code>.top40</code> - margin of <strong>40px</strong> on the top of elements.</li>
-                                <li><code>.top45</code> - margin of <strong>45px</strong> on the top of elements.</li>
-                                <li><code>.top50</code> - margin of <strong>50px</strong> on the top of elements.</li>
-                                <li><code>.top60</code> - margin of <strong>60px</strong> on the top of elements.</li>
-                                <li><code>.bottom5</code> - margin of <strong>5px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom10</code> - margin of <strong>10px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom15</code> - margin of <strong>15px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom20</code> - margin of <strong>20px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom25</code> - margin of <strong>25px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom30</code> - margin of <strong>30px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom35</code> - margin of <strong>35px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom40</code> - margin of <strong>40px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom45</code> - margin of <strong>45px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom50</code> - margin of <strong>50px</strong> on the bottom of elements.</li>
-                                <li><code>.bottom60</code> - margin of <strong>60px</strong> on the bottom of elements.</li>
-                                <li><code>.bgdefault</code> - for default background color of element.</li>
-                                <li><code>.defaultcolor</code> - for default color of element.</li>
-                                <li><code>.whitecolor</code> - for white color of element.</li>
-                                <li><code>.hover-default</code> - for default hover color of element.</li>
-                                <li><code>.bglight</code> - light grey background in website.</li>
-                                <li><code>.button</code> - default button used in website.</li>
-                                <li><code>.overlay</code> - to create overlay effects.</li>
-                                <li><code>.parallax</code> - to create parallax effects on sections.</li>
-                                <li><code>.opacity-(0-10)</code> - to apply opacity effects.</li>
-                                <li><code>.page-header</code> - in the header section to apply header settings for parallax effect.</li>
-                            </ul>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div id="docs-slider">
-                        <div id="docs-slider-types" class="docs-content-inner page-section">
-                            <h1>Slider Types &amp; their Options</h1>
-                            <p><strong>Bistro</strong> includes 2 Unique Sliders  for you to be used on any Page with 100s of Options. The List of all the Sliders included are mentioned as follows:</p>
-                            <ul>
-                                <li>Revolution Slider
-                                    <p>You can find the Revolution Slider related Documentation here.<br>
-                                        <a target="_blank" href="https://www.themepunch.com/revsliderjquery-doc/slider-revolution-jquery-5-x-documentation/" class="btn btn-warning">Read Revolution Slider Docs</a> </p></li>
-                                <li>Swiper Slider
-                                    <p>You can find the Swiper Slider related Documentation here.<br>
-                                        <br>
-                                        <a target="_blank" href="http://idangero.us/swiper/demos/#.WNEOPPLIbE8" class="btn btn-warning">Swiper Docs & Demos</a> </p>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div id="docs-blog">
-                        <div id="docs-blog-setup" class="docs-content-inner page-section">
-                            <h1>Blog Setup</h1>
-                            <p>Posts use Simple Markup. Use the Code Sample below in the <code>.container</code> Class:</p>
-                            <pre>
- <span class="color">   &lt;!-- Blog Starts --&gt; </span>
-&lt;section id="ourblog" class="padding_top padding_bottom"&gt;
-    &lt;div class="container"&gt;
-        &lt;h2 class="d-none"&gt;Blog&lt;/h2&gt;
-        &lt;div class="row"&gt;
-            &lt;div class="col-lg-8" id="blog"&gt;
-                &lt;article class="blog-item heading_space wow fadeIn" data-wow-delay="300ms"&gt;
-                    &lt;div class="image"&gt;&lt;img src="images/blogfull1.jpg" alt="blog" class="border_radius"&gt;&lt;/div&gt;
-                    &lt;h3 class="darkcolor font-light bottom10 top30"&gt; &lt;a href="blog-detail.html"&gt;Springtime Color Schemes to Try at Home&lt;/a&gt;&lt;/h3&gt;
-                    &lt;ul class="commment"&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-calendar"&gt;&lt;/i&gt;Jun 6&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 9&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; emorson&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.&lt;/p&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry...&lt;/p&gt;
-                    &lt;a class=" button btn-primary" href="blog-detail.html"&gt;Read More&lt;/a&gt;
-                &lt;/article&gt;
-                &lt;article class="blog-item heading_space wow fadeIn" data-wow-delay="300ms"&gt;
-                    &lt;div class="image"&gt;&lt;img src="images/blogfull2.jpg" alt="blog" class="border_radius"&gt;&lt;/div&gt;
-                    &lt;h3 class="darkcolor font-light bottom10 top30"&gt; &lt;a href="blog-detail.html"&gt;Springtime Color Schemes to Try at Home&lt;/a&gt;&lt;/h3&gt;
-                    &lt;ul class="commment"&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-calendar"&gt;&lt;/i&gt;Jun 6&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 9&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; emorson&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.&lt;/p&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry...&lt;/p&gt;
-                    &lt;a class=" button btn-primary" href="blog-detail.html"&gt;Read More&lt;/a&gt;
-                &lt;/article&gt;
-                &lt;article class="blog-item heading_space wow fadeIn" data-wow-delay="300ms"&gt;
-                    &lt;div class="image"&gt;&lt;img src="images/blogfull3.jpg" alt="blog" class="border_radius"&gt;&lt;/div&gt;
-                    &lt;h3 class="darkcolor font-light bottom10 top30"&gt; &lt;a href="blog-detail.html"&gt;Springtime Color Schemes to Try at Home&lt;/a&gt;&lt;/h3&gt;
-                    &lt;ul class="commment"&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-calendar"&gt;&lt;/i&gt;Jun 6&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 9&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#."&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; emorson&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.&lt;/p&gt;
-                    &lt;p class="top15"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry...&lt;/p&gt;
-                    &lt;a class="button btn-primary" href="blog-detail.html"&gt;Read More&lt;/a&gt;
-                &lt;/article&gt;
-                &lt;ul class="pagination padding-bottom"&gt;
-                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#."&gt;&lt;i class="fa fa-angle-left"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class="page-item active"&gt;&lt;a class="page-link" href="#."&gt;1&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#."&gt;2&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#."&gt;3&lt;/a&gt;&lt;/li&gt;
-                    &lt;li class="page-item"&gt;&lt;a class="page-link" href="#."&gt;&lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/div&gt;
-            &lt;!--Side bar--&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-</pre>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-blog-posttypes" class="docs-content-inner page-section">
-                            <h2>Post Types</h2>
-                            <p>You can use different types of Post Types:</p>
-                            <ul>
-                                <li>Image</li>
-                                <li>Sliders</li>
-                            </ul>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div id="docs-portfolio">
-                        <div id="docs-portfolio-setup" class="docs-content-inner page-section">
-                            <h1>Portfolio Setup</h1>
-                            <p>  Trax provides a very elegant way to showcase your work. Setting up Portfolio is simple. Please use the following codes:</p>
-                            <h4>Setting up Portfolio Filter Items :</h4>
-                            <pre>
-<span class="color"> &lt;!-- Work Starts --&gt; </span>
-&lt;section id="ourgallery" class="bglight position-relative padding_top"&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-            &lt;div class="col-md-12 text-center wow fadeIn top15" data-wow-delay="300ms"&gt;
-                &lt;h2 class="heading bottom45 darkcolor font-light2"&gt;Our &lt;span class="font-normal"&gt;Gallery&lt;/span&gt;
-                    &lt;span class="divider-center"&gt;&lt;/span&gt;
-                &lt;/h2&gt;
-                &lt;div class="col-md-8 offset-md-2 bottom40"&gt;
-                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolores explicabo laudantium, omnis provident quam reiciendis voluptatum?&lt;/p&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-12"&gt;
-                &lt;div id="mosaic-filter" class="cbp-l-filters bottom30 wow fadeIn text-center" data-wow-delay="350ms"&gt;
-                    &lt;div data-filter="*" class="cbp-filter-item"&gt;
-                        &lt;span&gt;All&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div data-filter=".digital" class="cbp-filter-item"&gt;
-                        &lt;span&gt;Digital&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div data-filter=".design" class="cbp-filter-item"&gt;
-                        &lt;span&gt;Design&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div data-filter=".brand" class="cbp-filter-item"&gt;
-                        &lt;span&gt;Brand&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div data-filter=".graphics" class="cbp-filter-item"&gt;
-                        &lt;span&gt;Graphics&lt;/span&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-12"&gt;
-                &lt;div id="grid-mosaic" class="cbp cbp-l-grid-mosaic-flat"&gt;
-                    &lt;!--Item 1--&gt;
-                    &lt;div class="cbp-item brand graphics"&gt;
-                        &lt;img src="images/gallery-1.jpg" alt=""&gt;
-                        &lt;div class="gallery-hvr whitecolor"&gt;
-                            &lt;div class="center-box"&gt;
-                                &lt;a href="images/gallery-1.jpg" class="opens" data-fancybox="gallery" title="Zoom In"&gt; &lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;a href="gallery-detail.html" class="opens" title="View Details"&gt; &lt;i class="fas fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;h4 class="w-100"&gt;Portfolio Title&lt;/h4&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;!--Item 2--&gt;
-                    &lt;div class="cbp-item digital brand graphics design"&gt;
-                        &lt;img src="images/gallery-4.jpg" alt=""&gt;
-                        &lt;div class="gallery-hvr whitecolor"&gt;
-                            &lt;div class="center-box"&gt;
-                                &lt;a href="images/gallery-4.jpg" class="opens" data-fancybox="gallery" title="Zoom In"&gt; &lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;a href="gallery-detail.html" class="opens" title="View Details"&gt; &lt;i class="fas fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;h4 class="w-100"&gt;Portfolio Title&lt;/h4&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;!--Item 3--&gt;
-                    &lt;div class="cbp-item design digital graphics"&gt;
-                        &lt;img src="images/gallery-11.jpg" alt=""&gt;
-                        &lt;div class="gallery-hvr whitecolor"&gt;
-                            &lt;div class="center-box"&gt;
-                                &lt;a href="images/gallery-11.jpg" class="opens" data-fancybox="gallery" title="Zoom In"&gt; &lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;a href="gallery-detail.html" class="opens" title="View Details"&gt; &lt;i class="fas fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;h4 class="w-100"&gt;Portfolio Title&lt;/h4&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                    &lt;!--Item 4--&gt;
-                    &lt;div class="cbp-item brand graphics"&gt;
-                        &lt;img src="images/gallery-2.jpg" alt=""&gt;
-                        &lt;div class="gallery-hvr whitecolor"&gt;
-                            &lt;div class="center-box"&gt;
-                                &lt;a href="images/gallery-2.jpg" class="opens" data-fancybox="gallery" title="Zoom In"&gt; &lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;a href="gallery-detail.html" class="opens" title="View Details"&gt; &lt;i class="fas fa-link"&gt;&lt;/i&gt;&lt;/a&gt;
-                                &lt;h4 class="w-100"&gt;Portfolio Title&lt;/h4&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class="col-lg-12"&gt;
-                    &lt;!--Load more itema from another html file using ajax--&gt;
-                    &lt;div id="js-loadMore-mosaic" class="cbp-l-loadMore-button "&gt;
-                        &lt;a href="load-more.html" class="cbp-l-loadMore-link button py-1 button gradient-btn whitecolor transition-3" rel="nofollow"&gt;
-                            &lt;span class="cbp-l-loadMore-defaultText"&gt;LOAD MORE (&lt;span class="cbp-l-loadMore-loadItems"&gt;13&lt;/span&gt;)&lt;/span&gt;
-                            &lt;span class="cbp-l-loadMore-loadingText"&gt;LOADING &lt;i class="fas fa-spinner fa-spin"&gt;&lt;/i&gt;&lt;/span&gt;
-                            &lt;span class="cbp-l-loadMore-noMoreLoading d-none"&gt;NO MORE WORKS&lt;/span&gt;
-                        &lt;/a&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-<span class="color">&lt;!-- Work ends --&gt;</span>
-</pre>
-                            <h4>Setting up Portfolio Scripts:</h4>
-                            <pre>&lt;script &gt;
-<span class="color">it will be found in script.js</span>
-  /* ===================================
-       Cube Portfolio
-     ====================================== */
-
-    /* Portfolio */
-    $("#grid-mosaic").cubeportfolio({
-      filters: "#mosaic-filter",
-      layoutMode: 'grid',
-      defaultFilter: "*",
-      animationType: "quicksand",
-      gapHorizontal: 0,
-      gapVertical: 0,
-      gridAdjustment: 'responsive',
-      mediaQueries: [{
-         width: 1500,
-         cols: 3,
-        }, {
-         width: 1100,
-         cols: 3,
-        }, {
-         width: 767,
-         cols: 2,
-        }, {
-         width: 480,
-         cols: 1,
-        }],
-       plugins: {
-           loadMore: {
-               element: '#js-loadMore-mosaic',
-               action: 'click',
-               loadItems: 4,
-           }
-       },
-   });
-&lt;/script&gt;</pre>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div id="docs-shortcodes">
-                        <div id="docs-shortcodes-intro" class="docs-content-inner page-section">
-                            <h1>Introduction</h1>
-                            <p>      Trax      boasts of a huge number of handy Shortcodes which are quite powerful, flexible, functional &amp; easy to use. Setting up shortcodes is very easy &amp; Self Explanatory. Here is the List of Shortcodes included with Bistro:</p>
-                            <ul>
-                                <li><code>Animations</code></li>
-                                <li><code>Buttons</code></li>
-                                <li><code>Carousels</code></li>
-                                <li><code>Clients</code></li>
-                                <li><code>Columns</code></li>
-                                <li><code>Dividers</code></li>
-                                <li><code>Icon Boxes</code></li>
-                                <li><code>Galleries</code></li>
-                                <li><code>Heading Styles</code></li>
-                                <li><code>Icon Lists</code></li>
-                                <li><code>Lightboxs</code></li>
-                                <li><code>Lists &amp; Panels</code></li>
-                                <li><code>Media Embeds</code></li>
-                                <li><code>Navigations</code></li>
-                                <li><code>Paginations</code></li>
-                                <li><code>Pricing Boxes</code></li>
-                                <li><code>Responsive</code></li>
-                                <li><code>Sections</code></li>
-                                <li><code>Social Icons</code></li>
-                                <li><code>Alert Boxes</code></li>
-                                <li><code>Styled Icons</code></li>
-                                <li><code>Tables</code></li>
-                                <li><code>Tabs</code></li>
-                                <li><code>Testimonials</code></li>
-                                <li><code>Thumbnails</code></li>
-                                <li><code>Toggles</code></li>
-                            </ul>
-                            <p>Each of the above mentioned Shortcodes are easily extendable, flexible &amp; easy to use. You can find the sample codes in their respective files. We are explaining a few of them for your Reference.</p>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-shortcodes-animations" class="docs-content-inner page-section">
-                            <h1>Animations</h1>
-                            <p>Scroll to reveal Animations are latest in the Trends. You can do them too with Bistro. You can use animations on any element you want. Here is the Sample Code:</p>
-                            <pre>&lt;div class="wow fadeInDown" &gt;&lt;/div&gt;</pre>
-                            <p>You can also use delays for your Animations:</p>
-                            <pre>&lt;div data-wow-duration="500ms" data-wow-delay="300ms"&gt;&lt;/div&gt;</pre>
-                            <p><span class="label label-danger">Note:</span> Delay Duration is in <strong>milliseconds</strong>.</p>
-                            <p>Here is the list of the Animation Types you can use:</p>
-                            <ul>
-                                <li><code>bounce</code></li>
-                                <li><code>flash</code></li>
-                                <li><code>pulse</code></li>
-                                <li><code>rubberBand</code></li>
-                                <li><code>shake</code></li>
-                                <li><code>swing</code></li>
-                                <li><code>tada</code></li>
-                                <li><code>wobble</code></li>
-                                <li><code>bounceIn</code></li>
-                                <li><code>bounceInDown</code></li>
-                                <li><code>bounceInLeft</code></li>
-                                <li><code>bounceInRight</code></li>
-                                <li><code>bounceInUp</code></li>
-                                <li><code>bounceOut</code></li>
-                                <li><code>bounceOutDown</code></li>
-                                <li><code>bounceOutLeft</code></li>
-                                <li><code>bounceOutRight</code></li>
-                                <li><code>bounceOutUp</code></li>
-                                <li><code>fadeIn</code></li>
-                                <li><code>fadeInDown</code></li>
-                                <li><code>fadeInDownBig</code></li>
-                                <li><code>fadeInLeft</code></li>
-                                <li><code>fadeInLeftBig</code></li>
-                                <li><code>fadeInRight</code></li>
-                                <li><code>fadeInRightBig</code></li>
-                                <li><code>fadeInUp</code></li>
-                                <li><code>fadeInUpBig</code></li>
-                                <li><code>fadeOut</code></li>
-                                <li><code>fadeOutDown</code></li>
-                                <li><code>fadeOutDownBig</code></li>
-                                <li><code>fadeOutLeft</code></li>
-                                <li><code>fadeOutLeftBig</code></li>
-                                <li><code>fadeOutRight</code></li>
-                                <li><code>fadeOutRightBig</code></li>
-                                <li><code>fadeOutUp</code></li>
-                                <li><code>fadeOutUpBig</code></li>
-                                <li><code>flip</code></li>
-                                <li><code>flipInX</code></li>
-                                <li><code>flipInY</code></li>
-                                <li><code>flipOutX</code></li>
-                                <li><code>flipOutY</code></li>
-                                <li><code>lightSpeedIn</code></li>
-                                <li><code>lightSpeedOut</code></li>
-                                <li><code>rotateIn</code></li>
-                                <li><code>rotateInDownLeft</code></li>
-                                <li><code>rotateInDownRight</code></li>
-                                <li><code>rotateInUpLeft</code></li>
-                                <li><code>rotateInUpRight</code></li>
-                                <li><code>rotateOut</code></li>
-                                <li><code>rotateOutDownLeft</code></li>
-                                <li><code>rotateOutDownRight</code></li>
-                                <li><code>rotateOutUpLeft</code></li>
-                                <li><code>rotateOutUpRight</code></li>
-                                <li><code>hinge</code></li>
-                                <li><code>rollIn</code></li>
-                                <li><code>rollOut</code></li>
-                                <li><code>zoomIn</code></li>
-                                <li><code>zoomInDown</code></li>
-                                <li><code>zoomInLeft</code></li>
-                                <li><code>zoomInRight</code></li>
-                                <li><code>zoomInUp</code></li>
-                                <li><code>zoomOut</code></li>
-                                <li><code>zoomOutDown</code></li>
-                                <li><code>zoomOutLeft</code></li>
-                                <li><code>zoomOutRight</code></li>
-                                <li><code>zoomOutUp</code></li>
-                            </ul>
-                        </div>
-
-                        <div class="line"></div>
-                        <div id="docs-shortcodes-icons" class="docs-content-inner page-section" style="position: relative;">
-                            <h1>Icons</h1>
-                            <a class="btn btn-success" target="_blank" href="https://themify.me/themify-icons">Themify Icons</a>
-                            <a class="btn btn-primary" target="_blank" href="https://fontawesome.com/icons">Fontawesome Icons</a>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-widgets">
-                            <div id="docs-widgets-setup" class="docs-content-inner page-section">
-                                <h2>Widgets</h2>
-                                <p>Widgets are simple &amp; easy to setup, completely flexible &amp; can be used anywhere on a page. All possible widgets are placed in side panels:</p>
-                            </div>
-                            <div class="line"></div>
-                        </div>
-                    </div>
-
-
-                     <div id="docs-contact">
-                <div id="docs-contact-simple" class="docs-content-inner page-section">
-                    <div class="docs-content-inner page-section">
-                        <h1>Simple Contact Form </h1>
-                        <p>In  <code>contact.php</code>  file you need to replace your email with existing one at line no 16. </p>
-                        <pre class="nobottommargin">
-                             $your_email = "user@website.com";</pre>
-                                                </div>
-                                            </div>
-                                            <div class="line"></div>
-                                            <div id="docs-contact-mailer" class="docs-content-inner page-section">
-                                                <div class="docs-content-inner page-section">
-                                                    <h1>Contact Form with PHP Mailer (Alternate Method)</h1>
-                                                    <p>In case the above simple mail settings doesn't work for you then please open the <code>contact.php</code> file and uncomment this code from line 67 to line 73. Provide your username with your email and your hosting provided password. Also you need to change your <code>SMTP</code> according to your hosting provider</p>
-                                                    <pre class="nobottommargin">
-
-                                $mail->isSMTP();                                            // Send using SMTP
-                                $mail->Host       = 'smtp.yourwebsite.com';                    // Set the SMTP server to send through
-                                $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-                                $mail->Username   = 'user@yourwebsite.com';                     // SMTP username
-                                $mail->Password   = 'your password';                         // SMTP password
-                                $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-                                $mail->Port       = 587;                                    // TCP port to connect to
-                </pre>
-                    </div>
-                </div>
-            </div>
-
-
-
-                    <div id="docs-credits">
-                        <div id="docs-credits-images" class="docs-content-inner page-section">
-                            <h1>Images</h1>
-                            <ul>
-                                <li><a href="http://unsplash.com/" target="_blank" title="Unsplash">Unsplash (FREE)</a></li>
-                                <li><a href="https://pexels.com/" target="_blank" title="Pexels">Pexels (FREE)</a></li>
-                                <li><a href="https://pixabay.com/" target="_blank" title="Pixabay">Pixabay (FREE)</a></li>
-                            </ul>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-credits-jquery" class="docs-content-inner page-section">
-                            <h1>jQuery</h1>
-                            <ul>
-                                <li><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">Revolution Slider</a></li>
-                                <li><a href="http://idangero.us/swiper/#.WNEdufLIbE8" target="_blank">Swiper</a></li>
-                                <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel</a></li>
-                                <li><a href="https://github.com/liabru/jquery-match-height" target="_blank">JQuery-MatchHeight</a></li>
-                                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 4</a></li>
-                                <li><a href="https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959" target="_blank">Cube Portfolio</a></li>
-                                <li><a href="https://developers.google.com/maps/web/" target="_blank">Google Map api</a></li>
-                            </ul>
-                        </div>
-                        <div class="line"></div>
-                        <div id="docs-credits-css" class="docs-content-inner page-section">
-                            <h1>CSS &amp; Fonts</h1>
-                            <ul>
-                                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 4</a></li>
-                                <li><a href="http://daneden.github.io/animate.css/" target="_blank">Animation</a></li>
-                                <li><a href="https://themify.me/themify-icons" target="_blank">Themify Icons</a> (Font Icons)</li>
-                                <li><a href="https://fontawesome.com/icons" target="_blank">FontAwesome Icons</a> (Font Icons)</li>
-                                <li><a href="http://idangero.us/swiper/#.WNEdufLIbE8" target="_blank">Swiper</a></li>
-                                <li><a href="https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959" target="_blank">Cube Portfolio</a></li>
-                                <li><a href="https://www.google.com/fonts" target="_blank">Google Fonts</a></li>
-                                <li>Montserrat </li>
-                                <li>Open Sans </li>
-                            </ul>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <script>
-                jQuery(document).ready( function($){
-
-                    $( "#docs" ).tabs({
-                        show: { effect: "fade", duration: 400 },
-                        activate:function(event,ui){
-                            $('html,body').stop(true).animate({
-                                'scrollTop': $('.docs-content').offset().top - 40
-                            }, 1250, 'easeInOutExpo');
-                        }
-                    });
-                });
-            </script>
-        </div>
-    </section>
-    <!-- #content end -->
-
+<body data-bs-spy="scroll" data-bs-target=".navbar-nav" data-bs-offset="75" class="offset-nav">
+<!--PreLoader-->
+<div class="loader">
+    <div class="loader-inner">
+        <div class="cssload-loader"></div>
+    </div>
 </div>
-<!-- #wrapper end -->
+<!--PreLoader Ends-->
+<!-- header -->
+<header class="site-header" id="header">
+    <nav class="navbar navbar-expand-lg transparent-bg static-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-transparent.png" alt="logo" class="logo-default">
+                <img src="images/logo.png" alt="logo" class="logo-scrolled">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item position-relative">
+                        <a class="nav-link active pagescroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-process">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-apps">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--side menu open button-->
+        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+            <span></span> <span></span> <span></span>
+        </a>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu opacity-0 gradient-bg">
+        <div class="overlay"></div>
+        <div class="inner-wrapper">
+            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item position-relative">
+                        <a class="nav-link pagescroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-process">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-apps">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#our-testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pagescroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-footer w-100">
+                <ul class="social-icons-simple white top40">
+                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                </ul>
+                <p class="whitecolor">&copy; <span id="year"></span> Trax. Made With Love by ThemesIndustry</p>
+            </div>
+        </div>
+    </div>
+    <div id="close_side_menu" class="tooltip"></div>
+    <!-- End side menu -->
+</header>
+<!-- header -->
+<!--Main Slider-->
+<section id="home">
+    <h2 class="d-none">heading</h2>
+    <div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
+        <div id="rev_one_page" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" class="banner-overlay">
+                    <!-- MAIN IMAGE -->
+                    <div class="overlay overlay-dark opacity-6"></div>
+                    <img src="images/banner-single-1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10"  data-no-retina>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-resizeme z-index-1 font-light2 text-capitalize whitecolor"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-140','-140']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">simple but
+                    </div>
+                    <div class="tp-caption tp-resizeme font-bold z-index-2 text-capitalize whitecolor"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-30','-30','-70','-70']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                         data-start="1200" data-splitin="none" data-splitout="none">more powerful
+                    </div>
+                    <div class="tp-caption tp-resizeme z-index-3 font-xlight whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','0','0']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">one page template
+                    </div>
+                    <div class="tp-caption"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['120','120','100','100']"
+                         data-textalign="['center','center','center','center']"
+                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;"
+                         data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'>
+                        <a href="javascript:void(0)" class="button btn-primary font-13">Get Started</a>
+                    </div>
+                </li>
+                <!-- SLIDE 2  -->
+                <li data-index="rs-02" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" class="banner-overlay">
+                    <!-- MAIN IMAGE -->
+                    <div class="overlay overlay-dark opacity-6"></div>
+                    <img src="images/banner-single-2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption tp-resizeme z-index-5 font-xlight whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-80','-80','-60','-60']"
+                         data-fontsize="['32','32','30','28']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['right','right','right','center']"
+                         data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                         data-start="1200" data-splitin="none" data-splitout="none"
+                         style="letter-spacing: 1px;">we're a design studio
+                    </div>
+                    <div class="tp-caption tp-resizeme z-index-6 font-normal whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-20','-20','-10','-10']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['right','right','right','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">believes in
+                    </div>
+                    <div class="tp-caption tp-resizeme z-index-7 font-bold whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['45','45','50','50']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['right','right','right','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                         data-start="1500" data-splitin="none" data-splitout="none"
+                         style="line-height:30px">an innovation
+                    </div>
+                    <div class="tp-caption"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['120','120','120','120']"
+                         data-textalign="['center','center','center','center']"
+                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                         data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;"
+                         data-type="button" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <a href="javascript:void(0)" class="button btn-primary font-13 mr-2">Learn More</a>
+                        <a href="javascript:void(0)" class="button btn-dark font-13">contact us</a>
+                    </div>
+                </li>
+                <!-- SLIDE 3  -->
+                <li data-index="rs-03" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" class="banner-overlay" >
+                    <!-- MAIN IMAGE -->
+                    <div class="overlay overlay-dark opacity-6"></div>
+                    <img src="images/banner-single-3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption tp-resizeme z-index-8 font-light2 whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-140','-140']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">the ultimate
+                    </div>
+                    <div class="tp-caption tp-resizeme z-index-9 font-bold whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-30','-30','-70','-70']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                         data-start="1200" data-splitin="none" data-splitout="none"
+                         style="letter-spacing: 1px;">next big thing
+                    </div>
+                    <div class="tp-caption tp-resizeme z-index-10 font-xlight whitecolor text-capitalize"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','0','0']"
+                         data-fontsize="['48','48','46','45']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;"
+                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">in one page
+                    </div>
+                    <div class="tp-caption"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['120','120','100','100']"
+                         data-textalign="['center','center','center','center']"
+                         data-whitespace="nowrap" data-type="button" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+                         data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;"
+                         data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <a href="javascript:void(0)" class="button btn-primary font-13">Get Started</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Main Slider ends -->
+<!--Some Feature -->
+<section id="our-feature" class="single-feature padding">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-start text-center wow fadeInLeft" data-wow-delay="300ms">
+                <div class="heading-title mb-4">
+                    <h2 class="darkcolor font-normal bottom30">Lets take your <span class="defaultcolor">Business</span> to Next Level</h2>
+                </div>
+                <p class="bottom35">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id interdum vitae, interdum eget elit. Curabitur quis urna nulla. Suspendisse potenti. Duis suscipit ultrices maximus. </p>
+                <a href="#our-team" class="button btnsecondary gradient-btn pagescroll mb-sm-0 mb-4">Learn More</a>
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
+                <div class="image"><img alt="SEO" src="images/awesome-feature.png"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Some Feature ends-->
+<!-- WOrk Process-->
+<section id="our-process" class="padding bgdark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="heading-title whitecolor wow fadeInUp" data-wow-delay="300ms">
+                    <span>Quisque tellus risus, adipisci </span>
+                    <h2 class="font-normal">Our Work Process </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="process-wrapp">
+                <li class="whitecolor wow fadeIn" data-wow-delay="300ms">
+                    <span class="pro-step bottom20">01</span>
+                    <p class="fontbold bottom25">Concept</p>
+                    <p class="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                </li>
+                <li class="whitecolor wow fadeIn" data-wow-delay="400ms">
+                    <span class="pro-step bottom20">02</span>
+                    <p class="fontbold bottom25">Plan</p>
+                    <p class="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                </li>
+                <li class="whitecolor wow fadeIn" data-wow-delay="500ms">
+                    <span class="pro-step bottom20">03</span>
+                    <p class="fontbold bottom25">Design</p>
+                    <p class="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                </li>
+                <li class="whitecolor wow fadeIn" data-wow-delay="600ms">
+                    <span class="pro-step bottom20">04</span>
+                    <p class="fontbold bottom25">Development</p>
+                    <p class="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                </li>
+                <li class="whitecolor wow fadeIn" data-wow-delay="700ms">
+                    <span class="pro-step bottom20">05</span>
+                    <p class="fontbold bottom25">Quality Check</p>
+                    <p class="mt-n2 mt-sm-0">Quisque tellus risus, adipisci viverra bibendum urna.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--WOrk Process ends-->
+<!-- Mobile Apps -->
+<section id="our-apps" class="padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-7 col-sm-12">
+                <div class="heading-title bottom30 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                    <span class="defaultcolor text-center text-md-start">Quisque tellus risus, adipisci viverra</span>
+                    <h2 class="darkcolor font-normal text-center text-md-start">Mobile App Designs</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12">
+                <p class="text-center text-md-start">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center" id="app-feature">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="text-center text-md-end">
+                    <div class="feature-item mt-3 wow fadeInLeft" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInLeft;">
+                        <div class="icon"><i class="fas fa-cog"></i></div>
+                        <div class="text">
+                            <h3 class="bottom15">
+                                <span class="d-inline-block">Theme Options</span>
+                            </h3>
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                        </div>
+                    </div>
+                    <div class="feature-item mt-5 wow fadeInLeft" data-wow-delay="350ms" style="visibility: visible; animation-delay: 350ms; animation-name: fadeInLeft;">
+                        <div class="icon"><i class="fas fa-edit"></i></div>
+                        <div class="text">
+                            <h3 class="bottom15">
+                                <span class="d-inline-block">Customization</span>
+                            </h3>
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="app-image top30">
+                    <div class="app-slider-lock-btn"></div>
+                    <div class="app-slider-lock">
+                        <img src="images/iphone-slide-lock.jpg" alt="">
+                    </div>
+                    <div id="app-slider" class="owl-carousel owl-theme owl-loaded owl-drag">
 
-<!-- Go To Top
-	============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
 
-<!-- Footer Scripts
-	============================================= -->
-<script  src="js/functions.js"></script>
+
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-470px, 0px, 0px); transition: all 0s ease 0s; width: 1645px;"><div class="owl-item cloned" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide2.jpg" alt="">
+                        </div></div><div class="owl-item cloned" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide3.jpg" alt="">
+                        </div></div><div class="owl-item active" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide1.jpg" alt="">
+                        </div></div><div class="owl-item" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide2.jpg" alt="">
+                        </div></div><div class="owl-item" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide3.jpg" alt="">
+                        </div></div><div class="owl-item cloned" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide1.jpg" alt="">
+                        </div></div><div class="owl-item cloned" style="width: 235px;"><div class="item">
+                            <img src="images/iphone-slide2.jpg" alt="">
+                        </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                    <img src="images/iphone.png" alt="image">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="text-center text-md-start">
+                    <div class="feature-item mt-3 wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+                        <div class="icon"><i class="fas fa-code"></i></div>
+                        <div class="text">
+                            <h3 class="bottom15">
+                                <span class="d-inline-block">Powerful Code</span>
+                            </h3>
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                        </div>
+                    </div>
+                    <div class="feature-item mt-5 wow fadeInRight" data-wow-delay="350ms" style="visibility: visible; animation-delay: 350ms; animation-name: fadeInRight;">
+                        <div class="icon"><i class="far fa-folder-open"></i></div>
+                        <div class="text">
+                            <h3 class="bottom15">
+                                <span class="d-inline-block">Documentation </span>
+                            </h3>
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Mobile Apps ends-->
+<!-- Counters -->
+<section id="bg-counters" class="padding bg-counters parallax">
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 bottom10">
+                <div class="counters whitecolor  top10 bottom10">
+                    <span class="count_nums font-light" data-to="2010" data-speed="2500"> </span>
+                </div>
+                <h3 class="font-light whitecolor top20">Since We Started</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <p class="whitecolor top20 bottom20 font-light title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id interdum vitae, interdum eget elit. </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 bottom10">
+                <div class="counters whitecolor top10 bottom10">
+                    <span class="count_nums font-light" data-to="895" data-speed="2500"> </span>
+                </div>
+                <h3 class="font-light whitecolor top20">Since We Started</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Counters ends-->
+<!-- Our Team-->
+<section id="our-team" class="padding_top half-section-alt teams-border">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="heading-title heading_space wow fadeInUp" data-wow-delay="300ms">
+                    <span class="defaultcolor text-center text-md-start">Quisque tellus risus, adipisci</span>
+                    <h2 class="darkcolor font-normal text-center text-md-start">Meet Our Experts</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p class="heading_space mt-n3 mt-sm-0 text-center text-md-start">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="ourteam-slider" class="owl-carousel">
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-1.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Jessica Twain</h4>
+                                <p>Agency Owner</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Jason Wudex </h4>
+                                <p>Designer</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box single">
+                            <div class="image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Jessica Twain</h4>
+                                <p>Agency Owner</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-4.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Hayden Wood</h4>
+                                <p>Marketing</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-1.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Shania Jackson </h4>
+                                <p>Print Media</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Jessica Twain</h4>
+                                <p>Agency Owner</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="team-box">
+                            <div class="image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <h4 class="darkcolor">Jessica Twain</h4>
+                                <p>Agency Owner</p>
+                                <ul class="social-icons-simple">
+                                    <li><a class="facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                                    <li><a class="twitter" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                                    <li><a class="insta" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Our Team ends-->
+<!--Pricing Start-->
+<section id="pricing" class="padding bglight">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="heading-title darkcolor wow fadeInUp" data-wow-delay="300ms">
+                    <span class="defaultcolor">Quisque tellus risus, adipisci </span>
+                    <h2 class="font-normal bottom30"> Pricing Offers </h2>
+                </div>
+            </div>
+            <div class="col-12 text-center ">
+                <div class="price-toggle-wrapper heading_space">
+                    <span class="Pricing-toggle-button month active">Monthly</span>
+                    <span class="Pricing-toggle-button year">Yearly</span>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme no-dots" id="price-slider">
+            <div class="item">
+                <div class="col-md-12">
+                    <div class="pricing-item wow fadeInUp animated sale" data-wow-delay="300ms" data-sale="60">
+                        <h3 class="font-light darkcolor">Basic</h3>
+                        <p class="bottom30">The standard version</p>
+                        <div class="pricing-price darkcolor"><span class="pricing-currency">$9.95</span> /<span class="pricing-duration">month</span></div>
+                        <ul class="pricing-list">
+                            <li>Support forum</li>
+                            <li>Free hosting</li>
+                            <li class="price-not">40MB of storage space</li>
+                            <li class="price-not">Social media integration</li>
+                            <li class="price-not">10GB of storage space</li>
+                        </ul>
+                        <a class="button" href="javascript:void(0)">Choose plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-12">
+                    <div class="pricing-item sale wow fadeInUp animated" data-wow-delay="380ms" data-sale="40">
+                        <h3 class="font-light darkcolor">Popular</h3>
+                        <p class="bottom30">The standard version</p>
+                        <div class="pricing-price darkcolor"><span class="pricing-currency">$19.95</span> /<span class="pricing-duration">month</span></div>
+                        <ul class="pricing-list">
+                            <li>Support forum</li>
+                            <li>Free hosting</li>
+                            <li>40MB of storage space</li>
+                            <li class="price-not">Social media integration</li>
+                            <li class="price-not">10GB of storage space</li>
+                        </ul>
+                        <a class="button" href="javascript:void(0)">Choose plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-12">
+                    <div class="pricing-item wow fadeInUp animated sale" data-wow-delay="460ms" data-sale="30">
+                        <h3 class="font-light darkcolor">Enterprise</h3>
+                        <p class="bottom30">The standard version</p>
+                        <div class="pricing-price darkcolor"><span class="pricing-currency">$29.95</span> /<span class="pricing-duration">month</span></div>
+                        <ul class="pricing-list">
+                            <li>Support forum</li>
+                            <li>Free hosting</li>
+                            <li>40MB of storage space</li>
+                            <li>Social media integration</li>
+                            <li class="price-not">10GB of storage space</li>
+                        </ul>
+                        <a class="button" href="javascript:void(0)">Choose plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-12">
+                    <div class="pricing-item wow fadeInUp animated sale" data-wow-deeay="400ms" data-sale="20">
+                        <h3 class="font-light darkcolor">Ultimate</h3>
+                        <p class="bottom30">The standard version</p>
+                        <div class="pricing-price darkcolor"><span class="pricing-currency">$49.95</span> /<span class="pricing-duration">month</span></div>
+                        <ul class="pricing-list">
+                            <li>Support forum</li>
+                            <li>Free hosting</li>
+                            <li>40MB of storage space</li>
+                            <li>Social media integration</li>
+                            <li>10GB of storage space</li>
+                        </ul>
+                        <a class="button" href="javascript:void(0)">Choose plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Pricing ends-->
+<!-- Gallery -->
+<section id="gallery" class="position-relative padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn" data-wow-delay="300ms">
+                <div class="heading-title bottom30 darkcolor wow fadeInUp" data-wow-delay="300ms">
+                    <span class="defaultcolor">Explore </span>
+                    <h2 class="font-normal darkcolor"> Our Gallery </h2>
+                </div>
+                <div class="col-md-8 offset-md-2 heading_space">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolores explicabo laudantium, omnis provident quam reiciendis voluptatum?</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div id="mosaic-filter" class="cbp-l-filters bottom30 wow fadeIn text-center" data-wow-delay="350ms">
+                    <div data-filter="*" class="cbp-filter-item">
+                        <span>All</span>
+                    </div>
+                    <div data-filter=".digital" class="cbp-filter-item">
+                        <span>Digital</span>
+                    </div>
+                    <div data-filter=".design" class="cbp-filter-item">
+                        <span>Design</span>
+                    </div>
+                    <div data-filter=".brand" class="cbp-filter-item">
+                        <span>Brand</span>
+                    </div>
+                    <div data-filter=".graphics" class="cbp-filter-item">
+                        <span>Graphics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div id="grid-mosaic" class="cbp cbp-l-grid-mosaic-flat">
+                    <!--Item 1-->
+                    <div class="cbp-item brand graphics">
+                        <img src="images/gallery-1.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-1.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Rainy Outdoor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 2-->
+                    <div class="cbp-item digital brand graphics design">
+                        <img src="images/gallery-4.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-4.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Classic Interior</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 3-->
+                    <div class="cbp-item design digital graphics">
+                        <img src="images/gallery-11.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-11.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Shadow Smoke</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 4-->
+                    <div class="cbp-item brand graphics">
+                        <img src="images/gallery-2.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-2.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Eiffel Model</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 5-->
+                    <div class="cbp-item brand graphics design design">
+                        <img src="images/gallery-7.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-7.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Clean Bike</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 6-->
+                    <div class="cbp-item brand digital design">
+                        <img src="images/gallery-9.jpg" alt="">
+                        <div class="gallery-hvr whitecolor">
+                            <div class="center-box">
+                                <a href="images/gallery-9.jpg" class="opens" data-fancybox="gallery" title="Zoom In"> <i class="fa fa-search-plus"></i></a>
+                                <a href="gallery-detail.html" class="opens" title="View Details"> <i class="fas fa-link"></i></a>
+                                <h4 class="w-100">Game Mode</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <!--Load more itema from another html file using ajax-->
+                    <div id="js-loadMore-mosaic" class="cbp-l-loadMore-button ">
+                        <a href="load-more.html" class="cbp-l-loadMore-link button py-1 button gradient-btn whitecolor transition-3" rel="nofollow">
+                            <span class="cbp-l-loadMore-defaultText">LOAD MORE (<span class="cbp-l-loadMore-loadItems">13</span>)</span>
+                            <span class="cbp-l-loadMore-loadingText">LOADING <i class="fas fa-spinner fa-spin"></i></span>
+                            <span class="cbp-l-loadMore-noMoreLoading d-none">NO MORE WORKS</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery ends -->
+<!-- Partners-->
+<section id="our-partners" class="padding bglight">
+    <div class="container">
+        <div class="row">
+            <h2 class="d-none">Partners Carousel</h2>
+            <div class="col-md-12 col-sm-12">
+                <div id="partners-slider" class="owl-carousel">
+                    <div class="item">
+                        <div class="logo-item"> <img alt="" src="images/logo-1.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-2.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-3.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-4.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-5.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-1.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-2.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-3.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-4.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="" src="images/logo-5.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Partners ends-->
+<!-- Testimonials -->
+<section id="our-testimonial" class="bglight padding_bottom">
+    <div class="parallax page-header testimonial-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6 col-md-12 text-center text-lg-end">
+                    <div class="heading-title wow fadeInUp padding_testi" data-wow-delay="300ms">
+                        <span class="whitecolor">Quisque tellus risus, adipisci</span>
+                        <h2 class="whitecolor font-normal">What People Say</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="owl-carousel" id="testimonial-slider">
+            <!--item 1-->
+            <div class="item testi-box">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="testimonial-round d-inline-block">
+                            <img src="images/testimonial-1.jpg" alt="">
+                        </div>
+                        <h4 class="defaultcolor font-light top15"><a href="#.">John Smith</a></h4>
+                        <p>UPWORK, New York</p>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
+                        <p class="bottom15 top90">We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we boast a years and years of service.</p>
+                        <span class="d-inline-block test-star">
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <!--item 2-->
+            <div class="item testi-box">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="testimonial-round d-inline-block">
+                            <img src="images/testimonial-2.jpg" alt="">
+                        </div>
+                        <h4 class="defaultcolor font-light top15"><a href="#.">Hayden Wood</a></h4>
+                        <p>FIVERR, Italy</p>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
+                        <p class="bottom15 top90">Trax’s customer testimonial page is another beauty. Its simple design focuses on videos and standout quotes from customers. This approach is clean, straightforward, text that can be overwhelming and easy to skip.</p>
+                        <span class="d-inline-block test-star">
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> <i class="far fa-star"></i>
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <!--item 3-->
+            <div class="item testi-box">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="testimonial-round d-inline-block">
+                            <img src="images/testimonial-3.jpg" alt="">
+                        </div>
+                        <h4 class="defaultcolor font-light top15"><a href="#.">Kevin Miller</a></h4>
+                        <p>ENVATO, Australia</p>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
+                        <p class="bottom15 top90">Trax is a company that provides tools to help professional event planning and execution, and their customers are very happy folks! The thing I love about their customer testimonial page provides content formats.</p>
+                        <span class="d-inline-block test-star">
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                </span>
+                    </div>
+                </div>
+            </div>
+            <!--item 4-->
+            <div class="item testi-box">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="testimonial-round d-inline-block">
+                            <img src="images/testimonial-4.jpg" alt="">
+                        </div>
+                        <h4 class="defaultcolor font-light top15"><a href="#.">Alina Johanson</a></h4>
+                        <p>INTEL, Sidney</p>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-10 offset-md-1 text-lg-start text-center">
+                        <p class="bottom15 top90">Startup Institute is a career accelerator that allows professionals to learn new skills, take their careers in a different direction, and pursue a career they are passionate about that have completed the program.</p>
+                        <span class="d-inline-block test-star">
+                                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i> <i class="far fa-star"></i>
+                                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Testimonials Ends-->
+<!--video part section-->
+<section class="bglight">
+    <h2 class="d-none">heading</h2>
+    <div class="container-fluid bg-white">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 p-0 col-video">
+                <div class="row mx-0">
+                    <div class="col-md-10 offset-md-1 offset-sm-0 col-sm-12">
+                        <div class="video-content-setting center-block text-center text-sm-start">
+                            <h2 class="darkcolor font-normal text-capitalize mb-3">a creative design agency in east london.</h2>
+                            <p class="darkcolor">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a data-fancybox="video" href="https://www.youtube.com/watch?v=7e90gBu4pas" class="video-play-button position-absolute">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12 p-0 col-video video-bg">
+                <div class="image split-blog-scale transition-3">
+                    <img alt="stats" src="images/bg-video-section.jpg" class="video-img-setting ">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--video part section end-->
+<!--Blog-->
+<section class="bglight padding_top" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="heading-title bottom30 darkcolor wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                    <span class="defaultcolor">Read Our </span>
+                    <h2 class="font-normal darkcolor"> Latest Blog </h2>
+                </div>
+                <div class="col-10 offset-1 text-center heading_space">
+                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                </div>
+            </div>
+        </div>
+        <div id="blog-measonry" class="cbp">
+            <div class="cbp-item">
+                <div class="news_item shadow">
+                    <a class="image" href="blog-detail.html">
+                        <img src="images/blog-measonry1.jpg" alt="Latest News" class="img-responsive">
+                    </a>
+                    <div class="news_desc">
+                        <h3 class="text-capitalize font-normal darkcolor"><a href="blog-detail.html">Next Large Social Network</a></h3>
+                        <ul class="meta-tags top20 bottom20">
+                            <li><a href="#."><i class="fas fa-calendar-alt"></i>Jan 14</a></li>
+                            <li><a href="#."> <i class="far fa-user"></i> Peter </a></li>
+                            <li><a href="#."><i class="far fa-comment-dots"></i> 7</a></li>
+                        </ul>
+                        <p class="bottom35">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <a href="blog-1.html" class="button gradient-btn mt-3">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-item">
+                <div class="news_item shadow">
+                    <a class="image" href="blog-detail.html">
+                        <img src="images/blog-measonry4.jpg" alt="Latest News" class="img-responsive">
+                    </a>
+                    <div class="news_desc">
+                        <h3 class="text-capitalize font-normal darkcolor"><a href="blog-detail.html">The Art of Finding Great Ideas</a></h3>
+                        <ul class="meta-tags top20 bottom20">
+                            <li><a href="#."><i class="fas fa-calendar-alt"></i>Feb 19</a></li>
+                            <li><a href="#."> <i class="far fa-user"></i> John </a></li>
+                            <li><a href="#."><i class="far fa-comment-dots"></i>9 </a></li>
+                        </ul>
+                        <p class="bottom35">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <a href="blog-1.html" class="button gradient-btn mt-3">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-item">
+                <div class="news_item shadow">
+                    <a class="image" href="blog-detail.html">
+                        <img src="images/blog-measonry6.jpg" alt="Latest News" class="img-responsive">
+                    </a>
+                    <div class="news_desc">
+                        <h3 class="text-capitalize font-normal darkcolor"><a href="blog-detail.html">3 Tips for Creating Your Own Blog</a></h3>
+                        <ul class="meta-tags top20 bottom20">
+                            <li><a href="#."><i class="fas fa-calendar-alt"></i>May 21</a></li>
+                            <li><a href="#."> <i class="far fa-user"></i> David </a></li>
+                            <li><a href="#."><i class="far fa-comment-dots"></i>4 </a></li>
+                        </ul>
+                        <p class="bottom35">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <a href="blog-1.html" class="button gradient-btn mt-3">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Blog ends-->
+<!--contact us-->
+<section id="contact" class="bglight padding position-relative noshadow">
+    <div class="container whitebox">
+        <div class="widget py-5">
+            <div class="row">
+                <div class="col-md-12 text-center wow fadeIn mt-n3" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeIn;">
+                    <div class="heading-title bottom25 darkcolor wow fadeInUp" data-wow-delay="300ms">
+                        <h2 class="font-normal darkcolor"> Contact Us </h2>
+                    </div>
+                    <div class="col-md-8 offset-md-2 bottom35">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolores explicabo laudantium, omnis provident quam reiciendis voluptatum?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 order-sm-2 text-center text-md-start">
+                    <div class="contact-meta px-2">
+                        <div class="heading-title">
+                            <span class="defaultcolor mb-3">Trax Agency Worldwide</span>
+                            <h2 class="darkcolor font-normal mb-4"><span class="d-none d-md-inline-block">Our</span> Agency Office <span class="d-none d-md-inline-block">In London</span></h2>
+                        </div>
+                        <p class="bottom10">Address: 309, New Cavendish St, EC1Y 3WK</p>
+                        <p class="bottom10">0800 214 5252</p>
+                        <p class="bottom10"><a href="mailto:polpo@traxagency.co.au">polpo@traxagency.co.au</a></p>
+                        <p class="bottom10">Mon-Fri: 9am-5pm</p>
+                        <ul class="social-icons mt-4 mb-4 mb-sm-0 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                            <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i> </a> </li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-whatsapp"></i> </a> </li>
+                            <li><a href="javascript:void(0)"><i class="far fa-envelope"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="heading-title  wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                        <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+                            <div class="row px-2">
+                                <div class="col-md-12 col-sm-12" id="result1"></div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="name1" class="d-none"></label>
+                                        <input class="form-control" id="name1" type="text" placeholder="Name:" required="" name="userName">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="email1" class="d-none"></label>
+                                        <input class="form-control" type="email" id="email1" placeholder="Email:" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="message1" class="d-none"></label>
+                                        <textarea class="form-control" id="message1" placeholder="Message:" required="" name="message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <button type="submit" id="submit_btn1" class="button gradient-btn w-100">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <div class="widget text-center top60 w-100">
+                    <div class="contact-box">
+                        <span class="icon-contact defaultcolor"><i class="fas fa-mobile-alt"></i></span>
+                        <p class="bottom0"><a href="tel:+14046000396">+14046000396</a></p>
+                        <p class="d-block"><a href="tel:+43720778972">+43720778972</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="widget text-center top60 w-100">
+                    <div class="contact-box">
+                        <span class="icon-contact defaultcolor"><i class="fas fa-map-marker-alt"></i></span>
+                        <p class="bottom0">123 Street NYC , USA </p>
+                        <p class="d-block">123 Street New Yolo , Austria </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="widget text-center top60 w-100">
+                    <div class="contact-box">
+                        <span class="icon-contact defaultcolor"><i class="far fa-envelope"></i></span>
+                        <p class="bottom0"><a href="mailto:admin@website.com">admin@website.com</a></p>
+                        <p class="d-block"><a href="mailto:email@website.com">email@website.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="widget text-center top60 w-100">
+                    <div class="contact-box">
+                        <span class="icon-contact defaultcolor"><i class="far fa-clock"></i></span>
+                        <p class="bottom15">UTC−05:00 <span class="d-block">UTC+01:00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact us end-->
+<!-- Stay connected US -->
+<section id="stayconnect" class="bglight position-relative">
+    <div class="container">
+        <div class="contactus-wrapp">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="heading-title wow fadeInUp text-center text-md-start" data-wow-delay="300ms">
+                        <h3 class="darkcolor bottom20">Stay Connected</h3>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12" id="result"></div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="form-group">
+                                    <label for="userName" class="d-none"></label>
+                                    <input class="form-control" type="text" placeholder="First Name:" required id="userName" name="userName">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="form-group">
+                                    <label for="companyName" class="d-none"></label>
+                                    <input class="form-control" type="tel" placeholder="Company Name"  id="companyName" name="companyName">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="form-group">
+                                    <label for="email" class="d-none"></label>
+                                    <input class="form-control" type="email" placeholder="Email:" required id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <button type="submit" class="button gradient-btn w-100" id="submit_btn">subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact US ends -->
+<!--Site Footer Here-->
+<footer id="site-footer" class=" bgdark padding_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20">
+                    <a href="index.html" class="footer_logo bottom25"><img src="images/logo-transparent.png" alt="MegaOne"></a>
+                    <p class="whitecolor bottom25">Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
+                    <div class="d-table w-100 address-item whitecolor bottom25">
+                        <span class="d-table-cell align-middle"><i class="fas fa-mobile-alt"></i></span>
+                        <p class="d-table-cell align-middle bottom0">
+                            +01 - 123 - 4567 <a class="d-block" href="mailto:web@support.com">web@support.com</a>
+                        </p>
+                    </div>
+                    <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
+                        <li><a href="javascript:void(0)" class="facebook"><i class="fab fa-facebook-f"></i> </a> </li>
+                        <li><a href="javascript:void(0)" class="twitter"><i class="fab fa-twitter"></i> </a> </li>
+                        <li><a href="javascript:void(0)" class="linkedin"><i class="fab fa-linkedin-in"></i> </a> </li>
+                        <li><a href="javascript:void(0)" class="insta"><i class="fab fa-instagram"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20">
+                    <h3 class="whitecolor bottom25">Latest News</h3>
+                    <ul class="latest_news whitecolor">
+                        <li> <a href="#.">Aenean tristique justo et... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+                        <li> <a href="#.">Phasellus dapibus dictum augue... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+                        <li> <a href="#.">Mauris blandit vitae. Praesent non... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20 ps-0 ps-lg-5">
+                    <h3 class="whitecolor bottom25">Our Services</h3>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog-1.html">Latest News</a></li>
+                        <li><a href="pricing.html">Business Planning</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">Faq's</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer_panel padding_bottom_half bottom20">
+                    <h3 class="whitecolor bottom25">Business hours</h3>
+                    <p class="whitecolor bottom25">Our support available to help you 24 hours a day, seven days week</p>
+                    <ul class="hours_links whitecolor">
+                        <li><span>Monday-Saturday:</span> <span>8.00-18.00</span></li>
+                        <li><span>Friday:</span> <span>09:00-21:00</span></li>
+                        <li><span>Sunday:</span> <span>09:00-20:00</span></li>
+                        <li><span>Calendar Events:</span> <span>24-Hour Shift</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer ends-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<!--Bootstrap Core-->
+<script src="js/propper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--to view items on reach-->
+<script src="js/jquery.appear.js"></script>
+<!--Owl Slider-->
+<script src="js/owl.carousel.min.js"></script>
+<!--number counters-->
+<script src="js/jquery-countTo.js"></script>
+<!--Parallax Background-->
+<script src="js/parallaxie.js"></script>
+<!--Cubefolio Gallery-->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<!--Fancybox js-->
+<script src="js/jquery.fancybox.min.js"></script>
+<!--Tooltip js-->
+<script src="js/tooltipster.min.js"></script>
+<!--wow js-->
+<script src="js/wow.js"></script>
+<!--Revolution SLider-->
+<script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+<!--custom functions and script-->
+<script src="js/functions.js"></script>
 </body>
 </html>
