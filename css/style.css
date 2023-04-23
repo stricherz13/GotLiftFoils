@@ -361,7 +361,7 @@ p {
 
 .font-normal {
     font-weight: normal;
-    
+
 }
 
 .font-light {
@@ -1511,6 +1511,9 @@ ul.social-icons.white li a:focus {
 .whatsapp:before{
     background-color: #09cc16 !important;
 }
+.tiktok:before{
+    background-color: #000000 !important;
+}
 
 /*-----Buttons-----*/
 
@@ -2102,6 +2105,7 @@ ul.links li a::before,
     font-size: 16px;
     padding: 0 0 0 1.4rem;
     line-height: 40px;
+    z-index: auto;
 }
 
 a.dropdown-toggle::after {
