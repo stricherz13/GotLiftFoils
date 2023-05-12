@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83690265-de3c-4a56-aa97-8ebf49bf033f" name="Changes" comment="New layout">
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_0626.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_0626_c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_0656.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_0656_c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_1042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_1042_c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_2391.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_2391_c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_3335.heic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_3335.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_3335_c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_3512-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_9865.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/IMG_9865_c.jpg" afterDir="false" />
+    <list default="true" id="83690265-de3c-4a56-aa97-8ebf49bf033f" name="Changes" comment="Updated text and navbar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/IMG_3335.heic" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +35,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Layout",
+    "git-widget-placeholder": "Text__edits",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/BradS/WebstormProjects/Portfolio",
     "node.js.detected.package.eslint": "true",
@@ -71,6 +58,10 @@
       <workItem from="1681432489922" duration="2267000" />
       <workItem from="1681482290272" duration="6905000" />
       <workItem from="1682256565316" duration="12161000" />
+      <workItem from="1682339090570" duration="21000" />
+      <workItem from="1682340162041" duration="47000" />
+      <workItem from="1682373530435" duration="134000" />
+      <workItem from="1683852369809" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="Updated directories and deleted unnecessary files">
       <created>1681432602780</created>
@@ -133,7 +124,8 @@
     <MESSAGE value="Added the correct directories" />
     <MESSAGE value="Added background image for testing" />
     <MESSAGE value="New layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="New layout" />
+    <MESSAGE value="Updated text and navbar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated text and navbar." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
